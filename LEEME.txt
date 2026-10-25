@@ -1,0 +1,17 @@
+MI AGENDA — cómo instalarla en el móvil
+
+Opción recomendada (gratis, 5 minutos, desde un ordenador):
+1. Crea una cuenta en github.com.
+2. Crea un repositorio nuevo (puede ser público: solo contiene la app vacía, nunca tus citas).
+3. "Add file" > "Upload files" y sube todo lo de esta carpeta (index.html, sw.js, manifest.webmanifest, icon-192.png, icon-512.png).
+4. Settings > Pages > Source: "Deploy from a branch", rama "main", carpeta "/ (root)". Guarda.
+5. En un minuto tendrás una dirección tipo https://tuusuario.github.io/nombre-repo/
+6. Ábrela en el móvil:
+   - iPhone (Safari): Compartir > "Añadir a pantalla de inicio".
+   - Android (Chrome): menú ⋮ > "Instalar aplicación".
+7. A partir de ahí funciona sin internet. Tus citas se guardan solo en el móvil.
+
+Importante:
+- Haz de vez en cuando "Copia de seguridad" (Ajustes). Si borras los datos del navegador o desinstalas la app, se pierden.
+- Los avisos de la propia app solo saltan con la app abierta. Para un aviso fiable con el móvil bloqueado, usa en cada cita "Añadir al calendario del móvil (.ics)".
+- En ordenador también puedes abrir index.html directamente con doble clic.
